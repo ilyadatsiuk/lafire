@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "lafire",
+	"version": "0.1.0",
+	"name": "LaFire",
+	"description": "Who will you be tonight? That's the question\nWho will Gru be tonight? (Braaa) That's the question",
+	"authors": [
+		"Ilya Datsiuk"
+	],
+	"contact": {
+		"homepage": "https://www.storylegends.xyz",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/lafire/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.datdevelop.lafire.LaFire"
+		]
+	},
+
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "~1.20.1",
+		"java": "*",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
